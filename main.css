@@ -2,6 +2,7 @@ header{
     max-width: 1400px;
     width: 95%;
     margin: auto;
+    padding-left: 10px;
 }
 
 section{
@@ -9,26 +10,30 @@ section{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     max-width: 1400px;
     width: 95%;
 
 }
 
-article{
+div{
     text-align: center;
     margin: auto;
-    width: 300px;
-    height: auto;
-    overflow-wrap: break-word;
+    margin-top: 100px;
+    width: 24%;
+    height: 20%;
 }
 
 img{
-    width: 300px;
+    width: 100%;
     height: auto;
     border-radius: 30% 0% 30% 30%;
 }
 
 p{
-    font-size: 12px;
+    font-size: 1 rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
 }
